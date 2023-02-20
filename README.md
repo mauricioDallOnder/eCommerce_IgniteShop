@@ -1,38 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# eCommerce IgniteShop
+## _Prototype of an e-commerce of shirts_
 
-## Getting Started
+<img src="https://img.shields.io/badge/build-passing-brightgreen"/>
+- Choose a shirt from a catalog of available shirts
+<br> 
+- Increase or decrease the quantity of items in the cart
+ <br> 
+- Place your order and confirm
+ <br> 
+- Pay with Stripe
 
-First, run the development server:
+Table of contents
+=================
+<p align="center">
+ <a href="#-about-this-project">About this project</a> •
+ <a href="#-Functionalities">Functionalities</a> • 
+ <a href="#-layout">Layout</a> • 
+ <a href="#-how-to-run-the-project">How To Run the Project</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 About this project
+🚀 In this project, an e-commerce t-shirt web app(Next.js) was developed. The app has been integrated with the Stripe platform to handle payments.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Functionalities
+- List of products (shirts) available for purchase
+- Add a specific quantity of items to the cart
+- Display total items in cart
+- Display the sum total amount of items in the cart
+- confirm your order and pay with Stripe
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🎨 Layout
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<img src="https://firebasestorage.googleapis.com/v0/b/chat-dos-otarios.appspot.com/o/Captura%20de%20Tela%202023-02-20%20a%CC%80s%2018.59.19.png?alt=media&token=1ccbe30c-e685-48a9-88ea-45159f0f8734" />
+<br/>
+<img src="https://firebasestorage.googleapis.com/v0/b/chat-dos-otarios.appspot.com/o/Captura%20de%20Tela%202023-02-20%20a%CC%80s%2018.59.29.png?alt=media&token=fd911194-19cb-4a7b-9097-a399dd0acafa" />
+<br/>
+<img src="https://firebasestorage.googleapis.com/v0/b/chat-dos-otarios.appspot.com/o/stripe.png?alt=media&token=2ce64f93-0427-453c-9c02-5d7f4e1fb553" />
+<br/>
+<img src="https://firebasestorage.googleapis.com/v0/b/chat-dos-otarios.appspot.com/o/Captura%20de%20Tela%202023-02-20%20a%CC%80s%2019.01.50.png?alt=media&token=df4db3bd-de8e-48d9-b775-34a0324916ae" />
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 🚀 How To Run the Project
+To run this project it is necessary:
 
-To learn more about Next.js, take a look at the following resources:
+1. Download the files and install npm
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### 🧭 Running the application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Type in your terminal "npm run dev"
 
-## Deploy on Vercel
+## 🛠 Tecnologias
+Typescript, React, Next.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🦸 Autor
+-Mauricio Dall Onder
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ 
